@@ -1,0 +1,273 @@
+# Site settings
+baseurl = "https://www.savewaikawaubay.com/"
+languageCode = "en-nz"
+title = "Save Waikawau Bay - North Coromandel, New Zealand"
+# theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Save Waikawau Bay"
+	description = "Help us protect Waikawau Bay in Coromandel, New Zealand"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "team@savewaikawaubay.com"
+
+    # Link custom assets relative to /static
+    custom_css = []
+    custom_js  = []
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Save Waikawau Bay"
+		services = "About"
+		portfolio = "The Threat"
+		about = "History"
+		team = "Your Help"
+		contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = "http://gohugo.io"
+    #    name = "Hugo"
+    #    weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+        url = "https://www.facebook.com/SaveWaikawauBay"
+        name = "Facebook Page"
+        weight = 10
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = ""
+		subtitle = "Help Protect Waikawau Bay from development"
+		buttonText = "Tell me more"
+
+
+	# Services section
+	[params.services]
+        enable = true
+		title = "About Waikawau Bay"
+		subtitle = "One of the jewels of the Coromandel with over fifty years of protection from development."
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-shopping-cart"
+                title = "E-Commerce"
+                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+            [[params.services.row.list]]
+                icon = "fa-laptop"
+                title = "Responsive Design"
+                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+            [[params.services.row.list]]
+                icon = "fa-lock"
+                title = "Web"
+                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+	# Portfolio section
+	[params.portfolio]
+    enable = true
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Portfolio"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+
+  # Timeline Section
+	[params.timeline]
+    enable = true
+		title = "50 Years of Protection from Development"
+		subtitle = "Let's continue the legacy and safeguard this treasure for the future"
+		endpoint = "Be part<br>of the<br>story!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.timeline.events]]
+			img = "1.jpg"
+			date = "1960s"
+			title = "The first threat"
+			description = "A Waikato developer wanted to build 2,000 houses and a shopping centre behind the dunes of this remote beach. They were stopped, and went to Pauanui instead."
+
+		[[params.timeline.events]]
+			img = "2.jpg"
+			date = "1970s"
+			title = "Beach Purchase"
+			description = "Environmental activists ( the Coromandel Physical Environment Society) and the Environment Council successfully campaigned to have the beach bought by the Department of Lands and Survey. The Environment Council wrote to the then Minister of Lands, concerned that the county council “would be likely driven by financial opportunities of a subdivision.” These words ring as true today."
+
+		[[params.timeline.events]]
+			img = "3.jpg"
+			date = "1990s"
+			title = "The golf course"
+			description = "An owner of nearby land applied to build 10 houses and an 8-hole golf course at the North headland of the beach. Locals mounted a successful campaign and the stopped the development."
+
+		[[params.timeline.events]]
+			img = "4.jpg"
+			date = "2003"
+			title = "The North Headland"
+			description = "Land at the the north end of Waikawau Bay was again under threat. 150 hectares were bought up through the Nature Heritage Fund and added to the land already owned by the Department of Conservation."
+
+		[[params.timeline.events]]
+				img = "4.jpg"
+				date = "Recently"
+				title = "The South Headland"
+				description = "Land at the the south end of the beach had a subdivison consent approved without notification! The diggers are in."
+
+		[[params.timeline.events]]
+				img = "4.jpg"
+				date = "Today"
+				title = "Save Waikawau Bay Campaign Launched"
+				description = "Time to get back to work to keep this amazing bay a tresure for us and future generations to enjoy."
+
+
+	# Team section
+	[params.team]
+    enable = true
+		title = "What you can do"
+		subtitle = "Your chance to make a difference"
+		description = ""
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = "1.jpg"
+			name = "Kay Garland"
+			position = "Lead Designer"
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+		[[params.team.members]]
+			img = "2.jpg"
+			name = "Larry Parker"
+			position = "Lead Marketer"
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+		[[params.team.members]]
+			img = "3.jpg"
+			name = "Diana Pertersen"
+			position = "Lead Developer"
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+	# Client section
+    [params.clients_list]
+        enable = true
+
+    	# All the clients' logos are stored under 'static/img/logos'.
+    	# Replace them with your clients's logos.
+    	[[params.clients]]
+    		logo = "envato.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "designmodo.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "themeforest.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "creative-market.jpg"
+    		link = "#"
+
+
+	# Contact section
+	[params.contact]
+        enable = true
+		title = "Contact us"
+		subtitle  = "Lorem ipsum dolor sit amet consectetur."
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone (optional)"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+
+	# Footer section
+	[params.footer]
+    enable = false
+		copyright = "Published under the Apache License 2.0."
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-facebook"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Privacy Policy"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Terms of Use"
+			link = "#"
