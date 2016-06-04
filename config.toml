@@ -79,40 +79,6 @@ googleAnalytics = ""
 		title = "About Waikawau Bay"
 		subtitle = "One of the jewels of the Coromandel with over fifty years of protection from development."
 
-        [[params.services.row]]
-
-            [[params.services.row.list]]
-                icon = "fa-shopping-cart"
-                title = "E-Commerce"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-            [[params.services.row.list]]
-                icon = "fa-laptop"
-                title = "Responsive Design"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-            [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Web"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-	# Portfolio section
-	[params.portfolio]
-    enable = true
-		# All projects defined in their own files. You can find example projects
-		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-		# at the root of this Hugo site.
-		# For more informtion take a look at the README.
-		title = "Portfolio"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-
-		[params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttonText = "Close project"
-
-
   # Timeline Section
 	[params.timeline]
     enable = true
@@ -148,13 +114,13 @@ googleAnalytics = ""
 			description = "Land at the the north end of Waikawau Bay was again under threat. 150 hectares were bought up through the Nature Heritage Fund and added to the land already owned by the Department of Conservation."
 
 		[[params.timeline.events]]
-				img = "4.jpg"
+				img = "5.jpg"
 				date = "Recently"
 				title = "The South Headland"
 				description = "Land at the the south end of the beach had a subdivison consent approved without notification! The diggers are in."
 
 		[[params.timeline.events]]
-				img = "4.jpg"
+				img = "6.jpg"
 				date = "Today"
 				title = "Save Waikawau Bay Campaign Launched"
 				description = "Time to get back to work to keep this amazing bay a tresure for us and future generations to enjoy."
