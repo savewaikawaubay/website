@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://waikawaubeta.s3-website-ap-southeast-2.amazonaws.com/"
+baseurl = "https://www.savewaikawaubay.com/"
 languageCode = "en-nz"
 title = "Save Waikawau Bay - North Coromandel, New Zealand"
 # theme = "hugo-agency-theme"
